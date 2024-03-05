@@ -1,0 +1,42 @@
+/* AboutUs.css */
+
+.about-us-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #e6f7ec; /* Light green shade background color */
+  }
+  
+  .about-us-container h1 {
+    font-size: 36px;
+    color: #333;
+  }
+  .about-us-container h3 {
+    font-size: 15px;
+    color: #060606;
+  }
+  
+  .about-us-container p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .plant-symbol {
+    font-size: 24px;
+    color: #4CAF50; /* Dark green color */
+    margin-right: 10px;
+  }
+  
+  .about-us-container .images-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .about-us-container .images-container img {
+    max-width: 200px;
+    margin: 10px;
+  }
+  

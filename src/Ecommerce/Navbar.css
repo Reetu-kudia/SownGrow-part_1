@@ -1,0 +1,53 @@
+.navbar {
+  background-color: #0c4d07;
+  padding: 20px 40px; /* Adjust padding */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 50px;
+}
+
+.navbar-nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-item {
+  margin-right: 20px; /* Adjust spacing between items */
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  padding: 1px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: #55bd2f;
+}
+.nav-button {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  padding: 0px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.nav-button:hover,
+.nav-button:focus { /* Added focus styling */
+  background-color: #55bd2f;
+}
+
+.nav-button:focus {
+  outline: none; /* Remove default focus outline */
+}

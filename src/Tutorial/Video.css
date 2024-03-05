@@ -1,0 +1,49 @@
+.Video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color:#B39DDB; /* Light gray background */
+}
+
+.TAVnav {
+  align-self: flex-start; /* Align the navigation to the left */
+  margin-bottom: 10px; /* Add margin at the bottom for spacing */
+  width: 1260px;
+  margin-left: 5px;
+}
+
+.Video h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.Video h4 {
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.video-container {
+  display: flex;
+  overflow-x: auto;
+  padding: 15px 0;
+  
+}
+
+.ReactPlayer1,
+.ReactPlayer2 {
+  max-width: 370px; /* Set maximum width for the player */
+  margin-right: 10px; /* Add margin between the players */
+  border: 5px solid #000; /* Add border to each video */
+}
+
+
+.Vfooter {
+  padding-top: 20px; /* Add padding at the top */
+  margin-top: 20px; /* Add margin at the top */
+  width: 100%;
+  height: 100px; /* Set the height of the footer */
+  background-color: #A0FA0F; /* Background color for the footer */
+}

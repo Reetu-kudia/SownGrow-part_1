@@ -1,0 +1,152 @@
+/* RHome.css */
+
+.rhome-container {
+  background-color: #b1ff6d;
+  padding: 20px;
+}
+
+.mission-box {
+  background-color: #e06b6b;
+  border: 5px solid #0e6303;
+  padding: 60px;
+  margin: 30px auto;
+  max-width: 800px;
+  max-height: 300px;
+  border-radius: 10px;
+  background-image: url('C:\TY Project\sowngrow\src\Recycling\RImages\R1.jpeg');
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 10px rgba(17, 236, 68, 0.1);
+}
+
+.mission-box h2 {
+  font-size: 24px;
+  color: #f9f8f8;
+  margin-bottom: 10px;
+  font-style: bold;
+}
+
+.mission-box p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #f1f7f0;
+  font-style: italic;
+}
+
+.image-box {
+  border: 5px solid #0e6303;
+  margin: 20px auto;
+  max-width: 800px;
+  max-height: 300px;
+  overflow: hidden; /* Hide overflow to ensure images don't exceed box boundaries */
+}
+
+
+
+.RFill {
+  text-align: center;
+}
+/* RHome.css */
+
+
+
+/* Container for the form */
+.waste-collection-form {
+  background-color: #ffffff; /* Background color for the form container */
+  border: 5px solid #0e6303; /* Border for the form container */
+  padding: 20px; /* Padding for the form container */
+  margin: 30px auto; /* Margin to center the form container */
+  max-width: 500px; /* Decreased maximum width of the form container */
+  border-radius: 10px; /* Border radius for rounded corners */
+  box-shadow: 0 0 10px rgba(17, 236, 68, 0.1); /* Add shadow to the form container */
+}
+
+/* Style for form labels */
+.form-group label {
+  font-weight: bold; /* Make the labels bold */
+  margin-bottom: 10px; /* Add margin below each label */
+}
+
+/* Style for form inputs */
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"],
+.form-group textarea {
+  width: calc(100% - 20px); /* Make the inputs span the full width of the container */
+  padding: 10px; /* Add padding to the inputs */
+  margin-bottom: 20px; /* Add margin below each input */
+  border: 2px solid #0e6303; /* Border for the inputs */
+  border-radius: 5px; /* Border radius for rounded corners */
+}
+
+/* Style for the submit button */
+.waste-collection-form button[type="submit"] {
+  background-color: #2cbe19; /* Background color for the submit button */
+  color: #ffffff; /* Text color for the submit button */
+ 
+  border: none; /* Remove border from the submit button */
+  border-radius: 5px; /* Border radius for rounded corners */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  margin: 0 auto;
+  display: block;
+  transition: background-color 0.3s; /* Smooth transition for background color change */
+  width: 200px; /* Set button width */
+  font-size: 18px; /* Set font size */
+  padding: 12px 24px; /* Increase padding */
+}
+
+.form-group button[type="submit"]:hover {
+  background-color: #0a4a02; /* Darker background color on hover */
+}
+
+
+
+/*....................................*/
+
+/* Style for the select container */
+.form-group select {
+  width: calc(100% - 20px); /* Make the select span the full width of the container */
+  padding: 10px; /* Add padding to the select */
+  margin-bottom: 20px; /* Add margin below the select */
+  border: 2px solid #0e6303; /* Border for the select */
+  border-radius: 5px; /* Border radius for rounded corners */
+  font-size: 16px; /* Font size for the select options */
+  color: #0c0d0c; /* Text color for the select options */
+  background-color: #ffffff; /* Background color for the select */
+}
+
+/* Style for the select options */
+.form-group select option {
+  padding: 10px; /* Add padding to the select options */
+  font-size: 16px; /* Font size for the select options */
+  color: #0d0d0c; /* Text color for the select options */
+  background-color: #ffffff; /* Background color for the select options */
+}
+
+/* Style for the select arrow */
+.form-group select::-ms-expand {
+  display: none; /* Hide the default arrow in IE */
+}
+
+/* Style for the select arrow (other browsers) */
+.form-group select::after {
+  content: '\25BC'; /* Unicode character for the arrow */
+  position: absolute; /* Position the arrow */
+  top: 50%; /* Align the arrow vertically */
+  right: 10px; /* Align the arrow to the right */
+  transform: translateY(-50%); /* Center the arrow vertically */
+  color: #f7faf6; /* Color for the arrow */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

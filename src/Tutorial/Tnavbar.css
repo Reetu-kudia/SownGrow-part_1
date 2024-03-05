@@ -1,0 +1,35 @@
+/* Navbar container */
+.Tnavbar {
+    background-color: #9575CD; /* Background color for the navbar */
+    padding: 20px 50px; /* Padding around the navbar */
+    margin-bottom: 20px; /* Margin bottom to create space between navbar and content */
+    border: 2px solid #A0FA0F; /* Border with color */
+}
+
+
+/* Navbar list */
+.Tnavbar-nav {
+    list-style-type: none; /* Remove default bullet points */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Navbar item */
+.Tnav-item {
+    display: inline-block; /* Display navbar items in a line */
+    margin-right: auto; /* Set right margin to auto for left alignment */
+}
+
+/* Navbar link */
+.Tnav-link {
+    color: #f7f9f8; /* Text color for navbar links */
+    text-decoration: none; /* Remove default underline */
+    padding: 10px 20px; /* Padding inside the navbar links */
+    font-weight: bold; /* Set text style as bold */
+}
+
+
+/* Navbar link hover */
+.Tnav-link:hover {
+    background-color: #EC407A; /* Background color on hover */
+}

@@ -1,0 +1,33 @@
+/* TAVnav.css */
+.TAVnav {
+  background-color: #D500F9; /* Background color for the navbar */
+  padding: 20px; /* Padding around the navbar */
+  margin-bottom: 20px; /* Margin bottom to create space between navbar and content */
+  border-color:#A0FA0F; /* Color of the border */
+  border-width: 5px; /* Width of the border */
+  border-style: solid; /* Style of the border */
+  border-radius: 8px; /* Border radius for rounded corners */
+}
+  
+  .TAVnav-list {
+    list-style-type: none; /* Remove default bullet points */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .TAVnav-item {
+    display: inline-block; /* Display navbar items in a line */
+    margin-right: 10px; /* Add spacing between navbar items */
+  }
+  
+  .TAVnav-link {
+    color: #f6fcf7; /* Text color for navbar links */
+    text-decoration: none; /* Remove default underline */
+    padding: 10px 20px; /* Padding inside the navbar links */
+    font-weight: bold; /* Set text style as bold */
+  }
+  
+  .TAVnav-link:hover {
+    background-color: #6bf286; /* Background color on hover */
+  }
+  

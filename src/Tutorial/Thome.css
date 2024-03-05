@@ -1,0 +1,90 @@
+/* Set background color for the body */
+.THome {
+    background-color: #a2f792; /* Background color for the entire screen */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    
+    /* Background image */
+    background-image: url('C:/TY Project/sowngrow/src/Tutorial/Timages/img11.jpg'); /* Specify the path to your background image */
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+    background-attachment: fixed; /* Keep the background image fixed while scrolling */
+}
+
+
+/* Title styles */
+h2 {
+    
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+/* Update the container styles to display flex */
+.Tcontainer {
+    
+    display: flex; /* Set container as flex container */
+    justify-content: space-around; /* Distribute space evenly between items */
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    height: 400px;
+}
+
+
+
+
+/* Card styles */
+.Tcard {
+    
+    width: 350px;
+    height: 250px;
+    margin: 10px;
+    padding: 30px;
+    border: 10px solid#6200EA;
+    border-radius: 50px;
+    box-shadow: 0 2px 4px rgba(19, 180, 195, 0.1);
+    transition: transform 0.3s;
+    background-color:#B39DDB;
+
+    ;
+}
+
+.Tcard:hover {
+    transform: translateY(-5px);
+}
+
+.Tcard h3 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.Tcard p {
+    color: #090909;
+}
+
+.Tcard a {
+    display: inline-block;
+    background-color: #6200EA;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-top: 15px;
+}
+.PT {
+   
+    color: #ffffff; /* White color */
+    text-align: center; /* Center alignment */
+    font-weight: bold; /* Bold font style */
+    padding-bottom: 10px;
+}
+.Tcard a:hover {
+    background-color:#EC407A;
+}
+
+
+
+ 
+  
+  

@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box; 
+}
+.main_container_signup {
+    padding: 20px 30px;
+    margin: 0 auto;
+    width: 400px;
+    margin-top: 100px;
+    border-top: 5px solid #fed700;
+    background-image: url('C:/NEW Project/firebase_auth/src/images/E2.jpg'); /* Specify the path to your background image */
+    background-size: cover;
+    background-position: center;
+    
+}
+.main_container_signup .header {
+    width: 100%;
+}
+.main_container_signup .header h2 {
+    text-align: center;
+    color: rgb(250, 250, 250);
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.main_container_signup .box {
+    width: 100%;
+    margin-top: 10px;
+    position: relative;
+}
+.main_container_signup .box input {
+    width: calc(100% - 40px); /* Adjusted width to accommodate the eye icon */
+    padding: 10px 20px;
+    margin-left: 30px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid #8a8a8a;
+}
+.main_container_signup p {
+    margin-top: 15px;
+    font-size: 12px;
+    color: rgb(255, 252, 252);
+    margin-left: 30px;
+    font-weight: 600;
+}
+.main_container_signup button {
+    margin-top: 10px;
+    margin-left: 35%;
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    background: #fed700;
+    border-radius: 5px;
+    color: black;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* Added styles for the eye and eye-slash icons */
+.main_container_signup .show-password-button {
+    position: absolute;
+    top: 30%;
+    right: 10px;
+    transform: translateY(-50%);
+    background: none;
+    border: 0px solid #8a8a8a; /* Added border */
+    border-radius: 50%; /* Make it a circle */
+    cursor: pointer;
+    font-size: 18px;
+    color: #8a8a8a;
+    padding: 5px; /* Added padding to increase clickable area */
+}
